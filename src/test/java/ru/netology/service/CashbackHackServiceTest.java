@@ -15,9 +15,9 @@ public class CashbackHackServiceTest {
     public void shouldReturnZero(){
         CashbackHackService service = new CashbackHackService();
         int expected = 0;
-        int actual = service.remain(2000);
+        int actual = service.remain(1000);
 
-        org.junit.Assert.assertEquals(actual, expected);
+        org.junit.Assert.assertEquals(expected, actual);
     }
     @org.junit.Test
     public void shouldReturn1000(){
